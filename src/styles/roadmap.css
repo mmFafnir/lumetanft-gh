@@ -1,0 +1,806 @@
+.roadmap-title{
+    font-size: 100px;
+    font-family: 'Montserrat-Bold';
+    color: #A8A6F8;
+    margin-left: 19%;
+}
+header{
+    padding: 0;
+    background-image: none;
+}
+.bg-images{
+    position: absolute;
+}
+.vector{
+    position: absolute;
+    left: 0;
+    z-index: -100;
+}
+.vector2{
+    top: 1500px;
+}
+.ellipse{
+    top: -450px;
+    pointer-events: none;
+    z-index: -100;
+}
+.path{
+    margin-top: 100px;
+}
+.path h4{
+    margin: 100px 0 20px 0;
+    color: #8C84F7;
+    font-size: 40px;
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    letter-spacing: -0.408px;
+    font-style: normal;
+    text-shadow: 0px 4px 30px rgba(91, 176, 255, 0.25);
+    text-align: left;
+}
+.crowdfinding{
+    padding: 0 0 0 20%;
+}
+.foundation{
+    margin-top: 100px;
+    padding: 0 45% 0 15%;
+}
+.path p{
+    margin: 0;
+    color: black;
+    opacity: 30%;
+    font-family: 'Montserrat-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+}
+.path h5{
+    font-size: 34px;
+    color: #8C84F7;
+    margin: 10px 0;
+    text-align: left;
+}
+.gpt{
+    position: relative;
+    padding: 0 10% 0 30%;
+    margin-top: 140px;
+}
+.gpt h4{
+    position: absolute;
+    top: -105px;
+    left: 20vw;
+}
+.pre-sale{
+    padding: 0 0 0 35%;
+}
+.post-pre-sale{
+    padding: 1% 5%;
+}
+.public-sale{
+    padding: 0 7% 0 50%;
+}
+.post-public-sale{
+    padding: 0 10% 0 30%;
+}
+.post-sale2{
+    padding: 0 50% 0 5%;
+}
+.post-sale3{
+    padding: 0 15% 0 35%;
+}
+.post-sale4{
+    padding: 0 30% 0 20%;
+}
+.post-sale5{
+    padding: 0 29% 0 21%;
+}
+.secret-sale{
+    padding: 0 20% 0 30%;
+}
+footer{
+    margin-top: 350px;
+    position: relative;
+}
+.vector{
+    position: absolute;
+}
+.vector1{
+    top: 200px;
+}
+.vector2{
+    top: 1936px;
+}
+.vector3{
+    top: 4006px;
+}
+.ball{
+    position: absolute;
+    z-index: -100px;
+}
+.ball0{
+    top: 370px;
+    left: 80px;
+}
+.ball1{
+    top: 620px;
+    left: 60px;
+}
+.ball2{
+    top: 860px;
+    left: 170px;
+}
+.ball3{
+    top: 1430px;
+    left: 550px;
+}
+.ball4{
+    top: 1690px;
+    left: 330px;
+}
+.ball5{
+    top: 2100px;
+    left: 620px;
+}
+.ball6{
+    top: 2350px;
+    left: 360px;
+}
+.ball7{
+    top: 2600px;
+    left: 760px;
+}
+.ball8{
+    top: 2800px;
+    left: 520px;
+}
+.ball9{
+    top: 2950px;
+    left: 20px;
+}
+.ball10{
+    top: 3150px;
+    left: 150px;
+}
+.ball11{
+    top: 3430px;
+    left: 350px;
+}
+.bg-light{
+    position: absolute;
+}
+.light-1{
+    top: -200px;
+}
+.light-2{
+    top: 500px;
+}
+.light-3{
+    transform: rotate(180deg);
+    right: 0;
+    top: 1000px;
+}
+.light-4{
+    top: 1900px;
+}
+.light-5{
+    top: 2700px;
+    transform: rotate(180deg);
+    right: 0;
+}
+.light-6{
+    top: 3500px;
+}
+.light-7{
+    top: 4200px;
+    right: 0;
+    transform: rotate(180deg);
+}
+.bg-ellipse{
+    position: absolute;
+    top: 2700px;
+    width: 150%;
+    z-index: -100;
+    display: none;
+}
+.dashed-ellipse{
+    position: absolute;
+    top: 2500px;
+    display: none;
+}
+.mobile-vector{
+    margin-top: 300px;
+    height: 450%;
+    position: absolute;
+    display: none;
+}
+@media(max-width: 1750px){
+    .ball2{
+        top: 920px;
+        left: 260px;
+    }
+    .ball3{
+        top: 1600px;
+        left: 420px;
+    }
+    .ball4{
+        top: 1900px;
+        left: 500px;
+    }
+    .ball5{
+        top: 2400px;
+        left: 400px;
+    }
+    .ball6{
+        top: 2510px;
+        left: 700px;
+    }
+    .ball7{
+        top: 2800px;
+        left: 500px;
+    }
+    .ball8{
+        top: 3020px;
+        left: 90px;
+    }
+    .ball9{
+        top: 3150px;
+        left: 230px;
+    }
+    .ball10{
+        top: 3390px;
+        left: 400px;
+    }
+    .ball11{
+        top: 3600px;
+    }
+    footer{
+        margin-top: 100px;
+    }
+    .light-7, .vector3{
+        display: none;
+    }
+    .gpt h4{
+        left: 29vw;
+    }
+    .foundation{
+        padding-left: 25%;
+        padding-right: 0;
+    }
+    .gpt{
+        padding-left: 40%;
+        padding-right: 10%;
+    }
+    .pre-sale{
+        padding-left: 55%;
+    }
+    .post-pre-sale{
+        padding-right: 50%;
+    }
+    .post-sale2{
+        transform: translateY(40px);
+    }
+    .post-sale4{
+        margin-top: 150px;
+    }
+}
+
+@media(max-width: 1750px){
+    .pre-sale {
+        padding-left: 48%;
+    }
+    .public-sale {
+       padding: 0 7% 0 34%;
+    }
+    
+    .post-public-sale {
+            padding: 0 10% 0 60%;
+    }
+    
+    .post-sale2 {
+        transform: translateY(0px);
+        padding: 0 0 0 45%;
+    }
+    
+    .post-sale3 {
+        padding: 0px 0 0 23%;
+    }
+    
+    .post-sale4 {
+        padding: 0 0 0 36%;
+    }
+    
+    .post-sale5 {
+            padding: 0 0 0 46%;
+    }
+    
+    .secret-sale {
+        padding: 0 0 0 40%;
+    }
+}
+
+@media(max-width: 1500px){
+
+    .public-sale {
+       transform: translateY(-50px);
+    }
+}
+
+@media(max-width: 1440px){
+    .post-public-sale {
+        padding: 25px 10% 0 25%;
+    }
+}
+
+@media(max-width: 1415px) {
+    .public-sale {
+        padding: 0 7% 0 47%;
+    }
+}
+
+@media(max-width: 1380px) {
+    .post-sale2 {
+        padding: 0px 0 0 19%;
+    }
+}
+
+@media(max-width: 1366px){
+    .mobile-vector{
+        height: 400%;
+    }
+    .light-6{
+        display: none;
+    }
+    .path h4{
+        font-size: 44px;
+    }
+    .path p{
+        font-size: 20px;
+    }
+    .gpt h4{
+        left: 10%;
+    }
+    .vector{
+        display: none;
+    }
+    .mobile-vector{
+        display: block;
+    }
+    .ball{
+        left: 0;
+    }
+    .ball0{
+        top: 300px;
+        left: -40px;
+    }
+    .ball2{
+        left: -20px;
+    }
+    .ball3{
+        top: 1500px;
+        left: 20px;
+    }
+    .ball4{
+        top: 1700px;
+        left: -20px;
+    }
+    .ball5{
+        top: 2000px;
+        left: -20px;
+    }
+    .ball6{
+        left: -20px;
+        top: 2200px;
+    }
+    .ball7{
+        top: 2350px;
+    }
+    .ball8{
+        top: 2600px;
+    }
+    .ball9{
+        top: 2800px;
+        left: -50px;
+    }
+    .ball10{
+        top: 3000px;
+        left: -50px;
+    }
+    .ball11{
+        top: 3200px;
+        left: -30px;
+    }
+}
+
+@media(max-width: 1366px){
+    .crowdfinding {
+        padding: 0 0 0 15%;
+    }
+    
+    .foundation {
+        padding: 0 0 0 15%;
+        margin-top: 130px;
+    }
+    
+    .gpt {
+        padding: 0 0 0 15%;
+        margin-top: 190px;
+    }
+    
+    .pre-sale {
+        margin-top: 140px;
+        padding: 0 0 0 15%;
+    }
+    
+    .post-pre-sale {
+        padding: 0 0 0 15%;
+    }
+    
+    .public-sale {
+        padding: 0 0 0 15%;
+    }
+    
+    .post-public-sale {
+        padding: 0 0 0 15%;
+    }
+    
+    .ball6 {
+        left: -33px;
+        top: 2205px;
+    }
+    
+    .ball7 {
+        top: 2450px;
+        left: 14px;
+    }
+    
+    .ball8 {
+        top: 2656px;
+        left: 10px;
+    }
+    
+    .post-sale2 {
+        padding: 0 0 0 15%;
+    }
+    
+    .post-sale3 {
+        padding: 0 0 0 15%;
+    }
+    
+    .post-sale4 {
+        margin-top: 100px;
+        padding: 0 0 0 15%;
+    }
+    
+    .post-sale5 {
+        padding: 0 0 0 15%;
+    }
+    
+    .secret-sale {
+        padding: 0 0 0 15%;
+    }
+}
+
+@media(max-width: 1166px){
+    .mobile-vector{
+        height: 400%;
+    }
+    .post-pre-sale{
+        padding-left: 15%;
+        padding-right: 20%;
+    }
+    .post-sale4{
+        margin-top: 100px;
+    }
+    .gpt h4{
+        left: 8%;
+    }
+    .ball{
+        left: 0;
+    }
+    .ball0{
+        top: 300px;
+        left: -40px;
+    }
+    .ball2{
+        left: -20px;
+    }
+    .ball3{
+        top: 1500px;
+        left: 20px;
+    }
+    .ball4{
+        top: 1800px;
+        left: -20px;
+    }
+    .ball5{
+        top: 2200px;
+        left: -20px;
+    }
+    .ball6{
+        left: -35px;
+        top: 2350px;
+    }
+    .ball7{
+        top: 2550px;
+    }
+    .ball8{
+        top: 2850px;
+    }
+    .ball9{
+        top: 3000px;
+        left: -50px;
+    }
+    .ball10{
+        top: 3200px;
+        left: -50px;
+    }
+    .ball11{
+        top: 3400px;
+        left: -30px;
+    }
+    .bg-ellipse{
+        display: none;
+    }
+    .light-5{
+        display: none;
+    }
+    
+    .public-sale {
+        transform: none;
+       padding: 125px 0 0 15%;
+    }
+}
+
+@media(max-width: 1000px){
+    .roadmap-title{
+        font-size: 60px;
+        margin: 100px 0 0 10%;
+    }
+    .path h4{
+        font-size: 24px;
+    }
+    .path p{
+        font-size: 16px;
+    }
+    .step{
+        padding: 0 20%;
+    }
+    .gpt h4{
+        top: -150px;
+        left: inherit;
+    }
+    .light-7, .light-6{
+        display: none;
+    }
+    .mobile-vector{
+        height: 337%;
+    }
+    .ball0{
+        top: 325px;
+        left: -40px;
+    }
+    .ball1{
+        top: 550px;
+        left: -15px;
+    }
+    .ball2{
+        top: 710px;
+        left: -30px;
+    }
+    .ball3{
+        top: 1220px;
+        left: 2px;
+    }
+    .ball4{
+        top: 1455px;
+        left: -25px;
+    }
+    .ball5{
+        top: 1730px;
+        left: -20px;
+    }
+    .ball6{
+        left: -45px;
+        top: 1890px;
+    }
+    .ball7{
+        top: 2130px;
+    }
+    .ball8{
+        top: 2280px;
+    }
+    .ball9{
+        top: 2390px;
+        left: -60px;
+    }
+    .ball10{
+        top: 2580px;
+        left: -65px;
+    }
+    .ball11{
+        top: 2750px;
+        left: -50px;
+    }
+    .bg-ellipse{
+        display: none;
+    }
+    .light-5{
+        display: none;
+    }
+}
+
+.step {
+    position: relative;
+    padding-right: 10px;
+    /* border: 1px solid red; */
+}
+
+.ball-mb {
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0;
+
+}
+
+@media (max-width: 650px) {
+    .post-sale4 {
+        margin: 0!important;
+    }
+    .foundation {
+        margin-top: 0;
+    } 
+
+    .gpt {
+        margin-top: 0;
+    }
+
+    .step {
+        padding-bottom: 80px;
+        transform: translateY(0px);
+    }
+
+    .post-sale2.step {
+        transform: translateY(0px);
+    }
+
+    .post-sale4.step {
+        padding-bottom: 100px;
+    }
+    
+    .pre-sale {
+        margin-top: 0;
+    }
+
+    .step h4 {
+        margin: 0!important;
+    }
+
+    .step h5 {
+        margin: 0!important;
+        font-size: 24px;
+    }
+
+    .dashed-ellipse {
+        display: none;
+    }
+
+    .ball {
+        display: none;
+    }
+
+    .ball-mb {
+        display: block;
+    }
+
+    .ball-mb-0 {
+        left: -50px;
+        top: -80px;
+    }
+
+    .ball-mb-1 {
+        top: -40px;
+        left: -12px;
+    }
+
+    .ball-mb-2 {
+        top: -45px;
+        left: -30px;
+    }
+
+    .ball-mb-3 {
+        top: -20px;
+        left: -5px;
+    }
+
+    .ball-mb-4 {
+        top: -65px;
+        left: -25px;
+    }
+
+    .ball-mb-5 {
+        top: -55px;
+        left: -25px;
+    }
+
+    .ball-mb-6 {
+        top: -80px;
+        left: -45px;
+    }
+
+    .ball-mb-7 {
+        top: -45px;
+        left: -5px;
+    }
+
+    .ball-mb-8 {
+        top: -30px;
+        left: -5px;
+    }
+
+    .ball-mb-9 {
+        top: -95px;
+        left: -60px;
+    }
+
+    .ball-mb-10 {
+        top: -115px;
+        left: -85px;
+    }
+
+    .ball-mb-11 {
+        top: -93px;
+        left: -55px;
+    }
+
+    .mobile-vector {
+        height: 252%;
+    }
+}
+
+@media (max-width: 600px) {
+    .path .step {
+        padding-left: 120px;
+    }
+}
+
+@media (max-width: 500px) {
+    .roadmap-title {
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .mobile-vector {
+        height: 288%;
+    }
+}
+
+@media (max-width: 360px) {
+    .path h4 {
+        margin-top: 45px;
+    }
+    .path h5 {
+        margin-top: 45px;
+    }
+    .mobile-vector {
+        height: 320%;
+    }
+}
+
+@media (max-width: 340px) {
+    .mobile-vector {
+        height: 338%;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .mobile-vector {
+        height: 360%;
+    }
+}
+
+
