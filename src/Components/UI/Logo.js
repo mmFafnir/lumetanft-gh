@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { gitUrl } from '../../App';
+
 const Logo = () => {
     return (
         <div class="logo">

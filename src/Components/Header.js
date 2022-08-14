@@ -10,6 +10,7 @@ import Lang from './UI/Lang';
 import Logo from './UI/Logo';
 import Socials from './UI/Socials';
 
+import { gitUrl } from '../App'; 
 const Header = () => {
 
     const location = useLocation()
