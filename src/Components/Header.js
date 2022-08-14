@@ -39,7 +39,7 @@ const Header = () => {
             <BurgerMenu />
             <header>
                 {
-                    path !== '/roadmap' ? <img class="bg-header" src="../static/images/bg-header.png" /> : null
+                    path !== '/roadmap' ? <img class="bg-header" src="./static/images/bg-header.png" /> : null
                     
                 }
                 <div class="container">
@@ -53,12 +53,12 @@ const Header = () => {
                         </ul>
                         <div class="lang-mb-wrap">
                             <Lang />
+                            <Socials />
                             <BurgerIcon />  
                         </div>
                     </div>
                     {path === '/' ? <BuddaSlider /> : null}
                 </div>
-                <Socials />
 
             </header>
         </>

@@ -87,6 +87,9 @@
 		width: 55%;
         flex: 1 1 auto;
 	}
+	.wallet-top span{
+		flex: 1 1 auto;
+	}
 
 	.sensey{
 		display: flex;
@@ -197,7 +200,7 @@
 	    display: flex !important;
 	    align-items: center;
 	    justify-content: space-around;
-	    margin: 30px auto 30px auto;
+	    margin: 30px 20px;
 	}
 	.social-mb img{
 		width: 38px;
@@ -501,30 +504,30 @@ header .container:before {
 @media screen and (max-width: 620px) {
 
 	.lang-btn {
-    left: unset;
-    font-size: 10px;
-    right: unset;
-    margin: 0 0 0 0;
-    box-shadow: 0px 4px 4px rgb(217 217 217 / 23%);
-    position: inherit;
-    width: 88px;
-    border-radius: 17px;
-    padding: 5px 19px 6px 16px;
-}
+		left: unset;
+		font-size: 10px;
+		right: unset;
+		margin: 0 0 0 0;
+		box-shadow: 0px 4px 4px rgb(217 217 217 / 23%);
+		position: inherit;
+		width: 88px;
+		border-radius: 17px;
+		padding: 5px 19px 6px 16px;
+	}
 
 	.social-mb img{
 		width: 33px;
 	}
 	
-.mint-top {
-    padding: 24px 30px;
-    color: #fff;
-    height: 76px;
-    font-size: 22px;
-    line-height: 108.67%;
-    letter-spacing: 2px;
-    margin: 0 19px 0 0;
-}
+	.mint-top {
+		padding: 24px 30px;
+		color: #fff;
+		height: 76px;
+		font-size: 22px;
+		line-height: 108.67%;
+		letter-spacing: 2px;
+		margin: 0 19px 0 0;
+	}
 
 .wallet-top {
     position: relative;
@@ -540,9 +543,10 @@ header .container:before {
     width: 80px;
     border-radius: 43px;
     background: #FFFFFF;
-    line-height: 20px;
-    padding: 6px 10px 24px 8px;
-    display: inline-block;
+    line-height: 0px;
+    /* padding: 6px 10px 24px 8px; */
+    /* display: inline-block; */
+	align-items: center;
     cursor: pointer;
 }
 
@@ -565,30 +569,28 @@ header .container:before {
 	background-size: cover !important;
 }
 
-.search-select ul.select li span {
-    margin: 0 0 0 13px;
+.search-select ul.select i{
+	width: 17px;
+	height: 17px;
 }
-
+.search-select ul.select.open{
+	top: 30px;
+}
 .search-select label {
     cursor: pointer;
-    height: 20px;
-    width: 300px;
-    line-height: 20px;
-    padding: 14px 0px 15px 13px;
+    /* height: 20px; */
+    /* width: 300px; */
+    line-height: 0px;
+    /* padding: 14px 0px 15px 13px; */
     color: #565656;
     font-weight: normal;
     font-style: normal;
     font-size: 12px;
 }
-
-.search-select .icon.list:after {
-    content: "";
-    width: 14px;
-    height: 14px;
-    /* background: url(../images/lang-icon.svg) 0 0 no-repeat; */
-    margin: 0 0 0 0;
-    background-size: cover;
+.search-select .icont {
+	flex: 0 0 17px;
 }
+
 
 .search-select {
     margin: 0 0;

@@ -1,5 +1,5 @@
-
-p{
+ 
+.how-buy-page p{
     font-size: 32px;
 }
 .how-to-buy-title{
@@ -81,3 +81,81 @@ p{
 }
 .two h2, .four h2{
 }
+
+@media(max-width: 1000px){
+    .how-to-buy-title{
+        font-size: 60px;
+        margin: 100px 0 0 10%;
+    }
+    .videoblock p{
+        font-size: 24px;
+    }
+    .videoblock{
+        margin: 0 10%;
+        margin-top: 200px;
+        padding: 20px;
+    }
+    .videoblock_someinfo{
+        max-width: 1000%;
+        right: 0;
+        top: -150px;
+    }
+    .videoblock_someinfo p{
+
+    }
+    .numerous p{
+        font-size: 28px;
+    }
+}
+.bg-light{
+    position: absolute;
+}
+.first-light{
+    width: 150%;
+}
+.second-light{
+    top: 1000px;
+}
+.third-light{
+    top: 1700px;
+    transform: rotate(180deg);
+    right: 0;
+}
+.fourth-light{
+    top: 2400px;
+}
+.fifth-light{
+    top: 2300px;
+    transform: rotate(180deg);
+    right: 0;
+}
+.star{
+    position: absolute;
+    right: 20%;
+    top: 92%;
+}
+@media(max-width: 750px){
+    .numerous{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .hollow{
+        width: 100%;
+        margin: 0;
+    }
+    .numerous p{
+        max-width: 100%;
+        padding-right: 10%;
+        font-size: 22px;
+        margin: 30px 0;
+    }
+    .numerous{
+        flex-direction: column;
+    }
+}
+@media(max-width: 600px){
+    .videoblock_someinfo{
+        font-size: 18px;
+    }
+}   

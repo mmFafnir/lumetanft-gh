@@ -6,23 +6,23 @@ import { langs, SET_LANG } from '../../store/reducer/LangReducer';
 const langsArr = [
     {
         lang: langs.RUS,
-        icon: '../static/images/russia.svg'
+        icon: './static/images/russia.svg'
     },
     {
         lang: langs.USA,
-        icon: '../static/images/lang-icon.svg'
+        icon: './static/images/lang-icon.svg'
     },
     {
         lang: langs.UAE,
-        icon: '../static/images/sudan.svg'
+        icon: './static/images/sudan.svg'
     },
     {
         lang: langs.IND,
-        icon: '../static/images/india.svg'
+        icon: './static/images/india.svg'
     },
         {
         lang: langs.CHN,
-        icon: '../static/images/china.svg'
+        icon: './static/images/china.svg'
     },
 
 ]

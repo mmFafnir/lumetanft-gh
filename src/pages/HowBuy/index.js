@@ -37,7 +37,7 @@ const HowBuy = () => {
         <main>
             <h1 className="how-to-buy-title">HOW TO BUY</h1>
             <div className="videoblock">
-                <img src="../static/images/Stars15.png" alt=""/>
+                <img src="./static/images/Stars15.png" alt=""/>
                 <p>How to purchase our NFT?</p>
                 <div className="videoblock_someinfo">The SENSAY is a collection of 10,000 unique NFT Buddhas that are part of something bigger!</div>
             </div>

@@ -5,7 +5,7 @@ import Team from './components/Team';
 
 const About = () => {
     return (
-        <main>
+        <main className='about-page'>
             <Images />
             <div class="about-title">
                 <h1>ABOUT</h1>

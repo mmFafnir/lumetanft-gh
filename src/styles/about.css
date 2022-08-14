@@ -1,4 +1,4 @@
-h1{
+.about-page h1{
     font-size: 100px;
     font-family: 'Montserrat-Bold';
     color: #A8A6F8;
@@ -13,7 +13,7 @@ h1{
     font-family: 'Montserrat-Bold';
     color: #A8A6F8;
 }
-h2{
+.about-page h2{
     margin-left: 19%;
     font-family: 'Montserrat-Bold';
     color: #A8A6F8;
@@ -128,7 +128,7 @@ footer{
     .articules{
         margin: 20%;
     }
-    .team{
+    .about-page .team{
         margin-left: 0;
         text-align: center;
     }
@@ -153,7 +153,7 @@ footer{
         margin: 0 19%;
         justify-content: center;
     }
-    h1{
+    .about-page h1{
         font-size: 60px;
         margin: 100px 10% 0 10%;
     }
@@ -162,7 +162,7 @@ footer{
         margin: 10px 10% 0 10%;
         letter-spacing: 15px;
     }
-    h2{
+    .about-page h2{
         margin-left: 10%;
         font-size: 20px;
     }

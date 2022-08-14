@@ -5,7 +5,7 @@ const Footer = () => {
         <footer>
             <div class="container">
                 <div class="flex-ft">
-                    <div class="logo-bt"><img src="../static/images/logo-bt.svg" /></div>
+                    <div class="logo-bt"><img src="./static/images/logo-bt.svg" /></div>
                     <div class="copyright"><span>©</span> 2022 LUMETA</div>
                     </div>
 
