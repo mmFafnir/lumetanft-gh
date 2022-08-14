@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import { LangHeader } from '../scripts/lang';
 import BurgerMenu from './BurgerMenu';
 import BuddaSlider from './UI/BuddaSlider';
 import BurgerIcon from './UI/BurgerIcon';
 import Lang from './UI/Lang';
 import Logo from './UI/Logo';
 import Socials from './UI/Socials';
+import { HeaderLangs } from '../scripts/HeaderLangs';
 
 import { gitUrl } from '../App'; 
 const Header = () => {
@@ -33,7 +33,7 @@ const Header = () => {
     }, [lang])
 
     useEffect(() => {
-        setClassLang(new LangHeader(lang))
+        setClassLang(new HeaderLangs(lang))
     }, [])
     return (
         <>

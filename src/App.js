@@ -17,8 +17,6 @@ import './styles/roadmap.css';
 import './styles/media.css';
 import HowBuy from "./pages/HowBuy";
 import FAQ from "./pages/FAQ";
-import { useEffect } from "react";
-import { useSelector } from "react-redux";
 
 
 

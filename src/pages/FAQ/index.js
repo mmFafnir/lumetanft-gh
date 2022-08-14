@@ -1,8 +1,10 @@
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
 
 import faq from '../../utils/faq.json';
 import '../../styles/faq.css'
+import { FaqLangs } from '../../scripts/FaqLangs';
 
 
 const faqArr = faq.map((item, index) => ({
@@ -34,7 +36,20 @@ const FAQ = () => {
                 <div className={`answer ${item.id === currentOpen ? 'active' : ''}`} >{item.text}</div>
             </div>
         )
-    } 
+    }
+
+
+    const lang = useSelector(state => state.lang);
+    const [classLang, setClassLang] = useState(null);
+    useEffect(() => {
+        if(classLang) {
+            classLang.changeLang(lang)
+        }
+    }, [lang])
+
+    useEffect(() => {
+        setClassLang(new FaqLangs(lang))
+    }, []) 
     return (
         <div>
             <main >
@@ -46,7 +61,7 @@ const FAQ = () => {
                         }
 
                     </div>
-                    <div className='left-column'>
+                    <div className='right-column'>
                         {
                             faqArr.slice(8,faq.length).map ((item, index) => renderAccordion(item, index))
                         }

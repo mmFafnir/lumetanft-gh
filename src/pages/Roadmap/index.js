@@ -1,9 +1,27 @@
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+
+import { useSelector } from 'react-redux';
+import { RoudmapLangs } from '../../scripts/RoudmapLangs';
 import BallImages from './components/BallImages';
 import Images from './components/Images';
 
 const Roadmap = () => {
+
+
+    const lang = useSelector(state => state.lang);
+    const [classLang, setClassLang] = useState(null);
+    console.log(lang)
+    useEffect(() => {
+        if(classLang) {
+            classLang.changeLang(lang)
+        }
+    }, [lang])
+
+    useEffect(() => {
+        setClassLang(new RoudmapLangs(lang))
+    }, [])
+
     return (
         <>
             <Images />

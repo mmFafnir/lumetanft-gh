@@ -1,7 +1,7 @@
 
-
-import React from 'react';
-
+import React, { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
+import { HowBuyLangs } from '../../scripts/HowBuyLangs';
 
 import '../../styles/howtobuy.css'
 
@@ -33,6 +33,20 @@ const roadmapSteps = [
 ]
 
 const HowBuy = () => {
+
+    const lang = useSelector(state => state.lang);
+    const [classLang, setClassLang] = useState(null);
+    useEffect(() => {
+        if(classLang) {
+            classLang.changeLang(lang)
+        }
+    }, [lang])
+
+    useEffect(() => {
+        setClassLang(new HowBuyLangs(lang))
+    }, [])
+
+
     return (
         <main className='how-buy-page'> 
             <h1 className="how-to-buy-title">HOW TO BUY</h1>
