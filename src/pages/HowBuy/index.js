@@ -34,7 +34,7 @@ const roadmapSteps = [
 
 const HowBuy = () => {
     return (
-        <main>
+        <main className='how-buy-page'> 
             <h1 className="how-to-buy-title">HOW TO BUY</h1>
             <div className="videoblock">
                 <img src="./static/images/Stars15.png" alt=""/>

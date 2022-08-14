@@ -544,7 +544,7 @@ header .container:before {
     border-radius: 43px;
     background: #FFFFFF;
     line-height: 0px;
-    /* padding: 6px 10px 24px 8px; */
+    padding: 0px 8px;
     /* display: inline-block; */
 	align-items: center;
     cursor: pointer;
@@ -578,7 +578,7 @@ header .container:before {
 }
 .search-select label {
     cursor: pointer;
-    /* height: 20px; */
+    height: auto;
     /* width: 300px; */
     line-height: 0px;
     /* padding: 14px 0px 15px 13px; */

@@ -15,11 +15,11 @@ const BurgerMenu = () => {
               <div className="mt-munu-mb">
                 <div className="header-navigation-wr">
                     <ul className="menu-mobile">
-                      <li><Link to="/">Main</Link></li>
-                      <li><Link to="/about">About</Link></li>
-                      <li><Link to="/roadmap">Road map</Link></li>
-                      <li><Link to="/how-to-buy">How to buy</Link></li>
-                      <li><Link to="/faq">FAQ</Link></li>
+                      <li><Link to={`${gitUrl}/`}>Main</Link></li>
+                      <li><Link to={`${gitUrl}/about`}>About</Link></li>
+                      <li><Link to={`${gitUrl}/roadmap`}>Road map</Link></li>
+                      <li><Link to={`${gitUrl}/how-to-buy`}>How to buy</Link></li>
+                      <li><Link to={`${gitUrl}/faq`}>FAQ</Link></li>
                     </ul>
                 </div>  
               </div>  

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Logo = () => {
     return (
         <div class="logo">
-            <Link to="/"><img src="../static/images/logo.svg" /></Link>
+            <Link to={`${gitUrl}/`}><img src="../static/images/logo.svg" /></Link>
         </div>
     );
 };
