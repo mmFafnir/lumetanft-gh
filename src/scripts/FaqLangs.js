@@ -7,42 +7,45 @@ export class FaqLangs extends Langs {
     rightColumn = document.querySelector('.right-column');
 
     rus(){
-    
-        this.leftColumn.children[0].children[0].children[0].textContent = "Сколько всего будет NFT SENSAY?";
-        this.leftColumn.children[1].children[0].children[0].textContent = "Какова будет цена минта?";
-        this.leftColumn.children[2].children[0].children[0].textContent = "Что насчет коммерческих прав?";
-        this.leftColumn.children[3].children[0].children[0].textContent = "Что делает Будду уникальным?";
-        this.leftColumn.children[4].children[0].children[0].textContent = "Как я могу попасть в белый список?";
-        this.leftColumn.children[5].children[0].children[0].textContent = "На каком блокчейне находится NFT SENSAY?";
-        this.leftColumn.children[6].children[0].children[0].textContent = "Сколько NFT SENSAY я могу сминтить?";
-        this.leftColumn.children[7].children[0].children[0].textContent = "Какие права я имею как владелец NFT SENSAY?";
-    
-        this.rightColumn.children[0].children[0].children[0].textContent = "Когда будет запущен NFT SENSAY?";
-        this.rightColumn.children[1].children[0].children[0].textContent = "Будут ли другие коллекции NFT Будд?";
-        this.rightColumn.children[2].children[0].children[0].textContent = "Каковы вторичные роялти? ";
-        this.rightColumn.children[3].children[0].children[0].textContent = "Какие сборы я плачу, приобретая NFT?";
-        this.rightColumn.children[4].children[0].children[0].textContent = "Кому принадлежит смарт-контракт и где я могу найти его?";
-        this.rightColumn.children[5].children[0].children[0].textContent = "Какие долгосрочные разработки есть у Lumeta?";
-        this.rightColumn.children[6].children[0].children[0].textContent = "Какие существуют классы редкости?";
-        this.rightColumn.children[7].children[0].children[0].textContent = "Могу ли я перепродать свой NFT SENSAY?";
-    
-        this.leftColumn.children[0].children[1].textContent = "Коллекция NFT SENSAY содержит 10.000 NFT";
-        this.leftColumn.children[1].children[1].textContent = "Цена зависит от стадии минта NFT. Цена ранней стадии NFT Foundation составляет 0,2 ETH";
-        this.leftColumn.children[2].children[1].textContent = "Авторские права принадлежат компании Lumeta. Права собственности и перепродажи принадлежат владельцам NFT. Для коммерческого использования, пожалуйста, свяжитесь с нами!";
-        this.leftColumn.children[3].children[1].textContent = "NFT Будда SENSAY является единственным в своем роде, сочетая в себе различные элементы, такие как фон, одежду, очки и головной убор, аксессуары и украшения (важный элемент: Амулеты с различными камнями, символизирующими огонь, землю, ветер, воду) и, самое главное, его тело, которое меняется от кожи до нефрита, дерева, травы и бриллиантов. Будда NFT неподвластен времени, универсален и может унаследовать духовную ценность для своих владельцев.";
-        this.leftColumn.children[4].children[1].textContent = "Активные пользователи будут внесены в белый список. Чтобы воспользоваться белым списком, сделайте следующее: 1. Подпишитесь на социальные сети (Twitter, Discord, Instagram, Telegram) 2. Сделайте репост поста из Twitter 3. Прокомментируйте пост в Twitter, рассказав о том, что вам понравилось в проекте NFT 4. Свяжитесь с нами, чтобы получить запись в наш белый список";
-        this.leftColumn.children[5].children[1].textContent = "Ethereum";
-        this.leftColumn.children[6].children[1].textContent = "Лимит на один криптокошелек составляет 500 NFT";
-        this.leftColumn.children[7].children[1].textContent = "Как владелец NFT SENSAY, вы получаете только права, описанные в условиях смарт-контракта, записанного в вашем невзаимозаменяемом токене. Все остальные права принадлежат исключительно создателю. Если вы хотите получить дополнительные права, свяжитесь с создателем.";
-    
-        this.rightColumn.children[0].children[1].textContent = "Q3-2022";
-        this.rightColumn.children[1].children[1].textContent = "Да. Более подробную информацию о будущих коллекциях можно найти в дорожной карте на сайтах компании.";
-        this.rightColumn.children[2].children[1].textContent = "Команда LUMETA получит 5% от всех вторичных продаж. Эти средства будут использованы для дальнейшего найма новых штатных сотрудников, финансирования разработки будущих проектов и предоставления еще большей ценности нашему сообществу.";
-        this.rightColumn.children[3].children[1].textContent = "При покупке NFT оплачивается: - 5% авторского вознаграждения, предназначенного для дальнейшего развития проектов и увеличения стоимости компании- 5% процент от первоначального минта, предназначенный для создания финансовой безопасности и благотворительности- 2,5% комиссии маркетплейса Opensea ";
-        this.rightColumn.children[4].children[1].innerHTML = '<a href="https://etherscan.io/address/0xE20f28f9C268A32C823c8E3f0f77760c140561B5#code">Смарт-контракт разработан и принадлежит компании Lumeta. Смарт-контракт можно найти на Etherscan по адресу</a>';
-        this.rightColumn.children[5].children[1].textContent = "Планируются еще две коллекции Будд NFT с собственным токеном, криптовалютой и метавселенной. Каждый проект будет частью большой экосистемы. Для получения дополнительной информации посетите наш сайт, раздел экосистема и дорожная карта.";
-        this.rightColumn.children[6].children[1].textContent = "Есть две основные фазы минта: - 1 фаза состоит из 500 загорелых Будд - 2 фаза состоит из 9500 Будд с различными телами (дерево 15%, медь 15%, кожа 15%, трава 10%, серебро 10%, мрамор 10%, сталь 10%, золото 5%, нефрит 5%, алмаз 5%).  Есть еще 8 атрибутов, таких как фон, одежда, очки, прическа, цепь, борода, пирсинг, кольца. И есть 3 ультра-раритетных NFT из всей коллекции.";
-        this.rightColumn.children[7].children[1].textContent = "Да, вы можете заниматься перепродажей на платформе Opensea в любое удобное для вас время.";
+        try {
+            this.leftColumn.children[0].children[0].children[0].textContent = "Сколько всего будет NFT SENSAY?";
+            this.leftColumn.children[1].children[0].children[0].textContent = "Какова будет цена минта?";
+            this.leftColumn.children[2].children[0].children[0].textContent = "Что насчет коммерческих прав?";
+            this.leftColumn.children[3].children[0].children[0].textContent = "Что делает Будду уникальным?";
+            this.leftColumn.children[4].children[0].children[0].textContent = "Как я могу попасть в белый список?";
+            this.leftColumn.children[5].children[0].children[0].textContent = "На каком блокчейне находится NFT SENSAY?";
+            this.leftColumn.children[6].children[0].children[0].textContent = "Сколько NFT SENSAY я могу сминтить?";
+            this.leftColumn.children[7].children[0].children[0].textContent = "Какие права я имею как владелец NFT SENSAY?";
+        
+            this.rightColumn.children[0].children[0].children[0].textContent = "Когда будет запущен NFT SENSAY?";
+            this.rightColumn.children[1].children[0].children[0].textContent = "Будут ли другие коллекции NFT Будд?";
+            this.rightColumn.children[2].children[0].children[0].textContent = "Каковы вторичные роялти? ";
+            this.rightColumn.children[3].children[0].children[0].textContent = "Какие сборы я плачу, приобретая NFT?";
+            this.rightColumn.children[4].children[0].children[0].textContent = "Кому принадлежит смарт-контракт и где я могу найти его?";
+            this.rightColumn.children[5].children[0].children[0].textContent = "Какие долгосрочные разработки есть у Lumeta?";
+            this.rightColumn.children[6].children[0].children[0].textContent = "Какие существуют классы редкости?";
+            this.rightColumn.children[7].children[0].children[0].textContent = "Могу ли я перепродать свой NFT SENSAY?";
+        
+            this.leftColumn.children[0].children[1].textContent = "Коллекция NFT SENSAY содержит 10.000 NFT";
+            this.leftColumn.children[1].children[1].textContent = "Цена зависит от стадии минта NFT. Цена ранней стадии NFT Foundation составляет 0,2 ETH";
+            this.leftColumn.children[2].children[1].textContent = "Авторские права принадлежат компании Lumeta. Права собственности и перепродажи принадлежат владельцам NFT. Для коммерческого использования, пожалуйста, свяжитесь с нами!";
+            this.leftColumn.children[3].children[1].textContent = "NFT Будда SENSAY является единственным в своем роде, сочетая в себе различные элементы, такие как фон, одежду, очки и головной убор, аксессуары и украшения (важный элемент: Амулеты с различными камнями, символизирующими огонь, землю, ветер, воду) и, самое главное, его тело, которое меняется от кожи до нефрита, дерева, травы и бриллиантов. Будда NFT неподвластен времени, универсален и может унаследовать духовную ценность для своих владельцев.";
+            this.leftColumn.children[4].children[1].textContent = "Активные пользователи будут внесены в белый список. Чтобы воспользоваться белым списком, сделайте следующее: 1. Подпишитесь на социальные сети (Twitter, Discord, Instagram, Telegram) 2. Сделайте репост поста из Twitter 3. Прокомментируйте пост в Twitter, рассказав о том, что вам понравилось в проекте NFT 4. Свяжитесь с нами, чтобы получить запись в наш белый список";
+            this.leftColumn.children[5].children[1].textContent = "Ethereum";
+            this.leftColumn.children[6].children[1].textContent = "Лимит на один криптокошелек составляет 500 NFT";
+            this.leftColumn.children[7].children[1].textContent = "Как владелец NFT SENSAY, вы получаете только права, описанные в условиях смарт-контракта, записанного в вашем невзаимозаменяемом токене. Все остальные права принадлежат исключительно создателю. Если вы хотите получить дополнительные права, свяжитесь с создателем.";
+        
+            this.rightColumn.children[0].children[1].textContent = "Q3-2022";
+            this.rightColumn.children[1].children[1].textContent = "Да. Более подробную информацию о будущих коллекциях можно найти в дорожной карте на сайтах компании.";
+            this.rightColumn.children[2].children[1].textContent = "Команда LUMETA получит 5% от всех вторичных продаж. Эти средства будут использованы для дальнейшего найма новых штатных сотрудников, финансирования разработки будущих проектов и предоставления еще большей ценности нашему сообществу.";
+            this.rightColumn.children[3].children[1].textContent = "При покупке NFT оплачивается: - 5% авторского вознаграждения, предназначенного для дальнейшего развития проектов и увеличения стоимости компании- 5% процент от первоначального минта, предназначенный для создания финансовой безопасности и благотворительности- 2,5% комиссии маркетплейса Opensea ";
+            this.rightColumn.children[4].children[1].innerHTML = '<a href="https://etherscan.io/address/0xE20f28f9C268A32C823c8E3f0f77760c140561B5#code">Смарт-контракт разработан и принадлежит компании Lumeta. Смарт-контракт можно найти на Etherscan по адресу</a>';
+            this.rightColumn.children[5].children[1].textContent = "Планируются еще две коллекции Будд NFT с собственным токеном, криптовалютой и метавселенной. Каждый проект будет частью большой экосистемы. Для получения дополнительной информации посетите наш сайт, раздел экосистема и дорожная карта.";
+            this.rightColumn.children[6].children[1].textContent = "Есть две основные фазы минта: - 1 фаза состоит из 500 загорелых Будд - 2 фаза состоит из 9500 Будд с различными телами (дерево 15%, медь 15%, кожа 15%, трава 10%, серебро 10%, мрамор 10%, сталь 10%, золото 5%, нефрит 5%, алмаз 5%).  Есть еще 8 атрибутов, таких как фон, одежда, очки, прическа, цепь, борода, пирсинг, кольца. И есть 3 ультра-раритетных NFT из всей коллекции.";
+            this.rightColumn.children[7].children[1].textContent = "Да, вы можете заниматься перепродажей на платформе Opensea в любое удобное для вас время.";
+        } catch (error) {
+            console.log(error)
+        }
     }
     
     aze(){

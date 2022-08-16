@@ -4,7 +4,7 @@ import Iframe from 'react-iframe';
 const FindBudda = () => {
     return (
         <section className='find-budda'>
-            <img className="bg-find-budd" src="../static/images/Ellipse9.svg"/>
+            <img className="bg-find-budd" src="static/images/Ellipse9.svg"/>
 
             <div className='container' >
                 <h2 className="find-budda-title">FIND YOUR BUDDA!</h2>
@@ -13,8 +13,8 @@ const FindBudda = () => {
                 
                 <div className='find-budda-video-section'>
                     <div className="video-block-wrap">
-                        <img className="yin-yang-left" src="../static/images/inyan.png" alt=""/>
-                        <img className="yin-yang-right" src="../static/images/inyan.png" alt=""/>
+                        <img className="yin-yang-left" src="static/images/inyan.png" alt=""/>
+                        <img className="yin-yang-right" src="static/images/inyan.png" alt=""/>
                         
                         <div className="budda-video">
                             <Iframe
@@ -43,12 +43,12 @@ const FindBudda = () => {
             </div> 
 
             <div className="comapny-budda">
-                <img className="bg-company-budda" src="../static/images/company-budda-bg.png" />
+                <img className="bg-company-budda" src="static/images/company-budda-bg.png" />
                 <div className="d-flex">
-                    <div className="company-img"><img src="../static/images/company-img.png" /></div>
-                    <div className="company-img2"><img src="../static/images/company-img2.png" /></div>
-                    <div className="company-img3"><img src="../static/images/company-img3.png" /></div>
-                    <div className="company-img4"><img src="../static/images/company-img4.png" /></div>
+                    <div className="company-img"><img src="static/images/company-img.png" /></div>
+                    <div className="company-img2"><img src="static/images/company-img2.png" /></div>
+                    <div className="company-img3"><img src="static/images/company-img3.png" /></div>
+                    <div className="company-img4"><img src="static/images/company-img4.png" /></div>
                 </div>
             
             </div>

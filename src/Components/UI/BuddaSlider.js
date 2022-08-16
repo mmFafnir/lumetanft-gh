@@ -4,17 +4,17 @@ const buddas = [
     {
         index: 1,
         class: 'original-budda',
-        src: './static/images/Budda1.png'
+        src: 'static/images/Budda1.png'
     },
     {
         index: 2,
         class: 'crystall-budda',
-        src: './static/images/Crystall-Budda.png'
+        src: 'static/images/Crystall-Budda.png'
     },
     {
         index: 3,
         class: 'emerald-budda',
-        src: './static/images/emerald-budda.png'
+        src: 'static/images/emerald-budda.png'
     },
 
 ]

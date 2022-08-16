@@ -6,7 +6,7 @@ import { gitUrl } from '../../App';
 const Logo = () => {
     return (
         <div class="logo">
-            <Link to={`${gitUrl}/`}><img src="../static/images/logo.svg" /></Link>
+            <Link to={`${gitUrl}/`}><img src="static/images/logo.svg" /></Link>
         </div>
     );
 };

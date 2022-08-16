@@ -17,7 +17,9 @@ const About = () => {
     }, [lang])
 
     useEffect(() => {
-        setClassLang(new AboutLangs(lang))
+        setTimeout(() => {
+            setClassLang(new AboutLangs(lang))
+        },300)
     }, [])
 
     return (

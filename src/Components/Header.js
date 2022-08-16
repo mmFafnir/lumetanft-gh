@@ -40,7 +40,7 @@ const Header = () => {
             <BurgerMenu />
             <header>
                 {
-                    path !== '/roadmap' ? <img class="bg-header" src="./static/images/bg-header.png" /> : null
+                    path !== '/roadmap' ? <img class="bg-header" src="static/images/bg-header.png" /> : null
                     
                 }
                 <div class="container">

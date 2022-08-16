@@ -22,6 +22,7 @@ const FAQ = () => {
         setCurrentOpen(id)
     }
 
+
     const renderAccordion = (item, index) => {
         return (
             <div key={index} className="que-ans">
@@ -45,6 +46,7 @@ const FAQ = () => {
         if(classLang) {
             classLang.changeLang(lang)
         }
+        
     }, [lang])
 
     useEffect(() => {
