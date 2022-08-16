@@ -34,6 +34,8 @@ const Header = () => {
 
     useEffect(() => {
         setClassLang(new HeaderLangs(lang))
+        setPath(window.location.pathname)
+        console.log(path)
     }, [])
     return (
         <>
@@ -58,7 +60,7 @@ const Header = () => {
                             <BurgerIcon />  
                         </div>
                     </div>
-                    {path === '/' ? <BuddaSlider /> : null}
+                    {path === `${gitUrl}/` ? <BuddaSlider /> : null}
                 </div>
 
             </header>
