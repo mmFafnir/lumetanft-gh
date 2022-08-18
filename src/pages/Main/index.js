@@ -19,8 +19,13 @@ const Main = () => {
     }, [lang])
 
     useEffect(() => {
-        setClassLang(new MainLangs(lang))
-    }, [])
+        if(!classLang) {
+            setClassLang(new MainLangs(lang))
+        }
+        if(classLang) {
+            classLang.changeLang(lang)
+        }
+    }, [classLang]) 
 
 
     return (

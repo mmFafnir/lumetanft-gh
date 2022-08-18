@@ -9,10 +9,12 @@ export class Langs {
   
   constructor(lang) {
     this.lang = lang;
+    // this.changeLang(lang)
   }  
   
   
   changeLang(lang) {
+    console.log(lang)
     switch (lang) {
       case langs.RUS:
         this.rus()

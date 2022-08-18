@@ -42,10 +42,15 @@ const HowBuy = () => {
         }
     }, [lang])
 
-    useEffect(() => {
-        setClassLang(new HowBuyLangs(lang))
-    }, [])
 
+    useEffect(() => {
+        if(!classLang) {
+            setClassLang(new HowBuyLangs(lang))
+        }
+        if(classLang) {
+            classLang.changeLang(lang)
+        }
+    }, [classLang]) 
 
     return (
         <main className='how-buy-page'> 

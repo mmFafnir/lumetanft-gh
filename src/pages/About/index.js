@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useSelector } from 'react-redux';
 import { AboutLangs } from '../../scripts/AboutLangs';
 import Images from './components/Images';
@@ -9,6 +9,8 @@ const About = () => {
 
 
     const lang = useSelector(state => state.lang);
+
+    const mainRef = useRef(null);
     const [classLang, setClassLang] = useState(null);
     useEffect(() => {
         if(classLang) {
@@ -17,13 +19,22 @@ const About = () => {
     }, [lang])
 
     useEffect(() => {
-        setTimeout(() => {
-            setClassLang(new AboutLangs(lang))
-        },300)
-    }, [])
-
+        if(!classLang) {
+            setTimeout(() => {
+                // const classL = new AboutLangs(lang); 
+                // classL.changeLang(lang)
+                // console.log(mainRef)
+                setClassLang(new AboutLangs(lang))
+            },100)
+        }
+        if(classLang) {
+            classLang.changeLang(lang)
+        }
+    }, [classLang])
+    // useEffect(() => )
+    
     return (
-        <main className='about-page'>
+        <main ref={mainRef} className='about-page'>
             <Images />
             <div class="about-title">
                 <h1>ABOUT</h1>

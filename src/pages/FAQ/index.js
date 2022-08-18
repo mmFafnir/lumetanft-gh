@@ -50,8 +50,13 @@ const FAQ = () => {
     }, [lang])
 
     useEffect(() => {
-        setClassLang(new FaqLangs(lang))
-    }, []) 
+        if(!classLang) {
+            setClassLang(new FaqLangs(lang))
+        }
+        if(classLang) {
+            classLang.changeLang(lang)
+        }
+    }, [classLang]) 
     return (
         <div>
             <main >

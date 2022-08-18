@@ -6,12 +6,21 @@ const Benefit = () => {
             <div className="container">
                 <div className="benefit-title">BENEFITS</div>
                 <div className="benefit-block">
+                    <img className='star-benefit' src="static/images/star-benefit.svg" />
+                    <img className='star-benefit' src="static/images/star-benefit.svg" />
+                    <img className='star-benefit' src="static/images/star-benefit.svg" />
+                    <img className='star-benefit' src="static/images/star-benefit.svg" />
                     <div className="benefit-icon">
                         <img src="./static/images/dashicons.svg"/>
                     </div>
                     <p className="benefit1">Passive income in the form of native tokens</p>
                 </div>
                 <div className="benefit-block2">
+                    <img className='star-benefit' src="static/images/star-benefit.svg" />
+                    <img className='star-benefit' src="static/images/star-benefit.svg" />
+                    <img className='star-benefit' src="static/images/star-benefit.svg" />
+                    <img className='star-benefit' src="static/images/star-benefit.svg" />
+
                     <div className="benefit-icon">
                         <img src="./static/images/benefit-icon.svg"/>
                     </div>
@@ -19,6 +28,11 @@ const Benefit = () => {
                 </div>
 
                 <div className="benefit-block">
+                <img className='star-benefit' src="static/images/star-benefit.svg" />
+                <img className='star-benefit' src="static/images/star-benefit.svg" />
+                <img className='star-benefit' src="static/images/star-benefit.svg" />
+                <img className='star-benefit' src="static/images/star-benefit.svg" />
+
                     <div className="benefit-icon">
                         <img src="./static/images/benefit-icon2.svg"/>
                     </div>
@@ -26,6 +40,11 @@ const Benefit = () => {
                 </div>
 
                 <div className="benefit-block3">
+                <img className='star-benefit' src="static/images/star-benefit.svg" />
+                <img className='star-benefit' src="static/images/star-benefit.svg" />
+                <img className='star-benefit' src="static/images/star-benefit.svg" />
+                <img className='star-benefit' src="static/images/star-benefit.svg" />
+
                     <div className="benefit-icon">
                         <img src="./static/images/benefit-icon3.svg"/>
                     </div>

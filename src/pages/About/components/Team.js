@@ -33,7 +33,7 @@ const team = [
 ]
 const Team = () => {
     return (
-        <section>
+        <section className="mt-100">
             <h1 class="team">TEAM</h1>
 
             <div class="articules">

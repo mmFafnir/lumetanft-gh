@@ -11,9 +11,12 @@ export class AboutLangs extends Langs {
     continuationQuote = document.querySelector('.continuation-of-the-quote');
 
 
-
+    // changeLang() {
+    //     suoer
+    // }
     rus(){
-        
+
+        console.log(this.continuationQuote)
         this.articules.children[0].children[2].innerHTML = "Соучредитель";
         this.articules.children[1].children[2].innerHTML = "Соучредитель";
         this.articules.children[3].children[2].innerHTML = "Концепт-менеджер";

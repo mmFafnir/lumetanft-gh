@@ -4,7 +4,7 @@ import { Langs } from "./Langs";
 
 
 export class MainLangs extends Langs {
-    wallet = document.querySelector('.wallet-top');
+    wallet = document.querySelector('.wallet-top span');
 
     findBuddaTitle = document.querySelector('.find-budda-title');
     benefitTitle = document.querySelector('.benefit-title');
@@ -17,8 +17,8 @@ export class MainLangs extends Langs {
 
     findBuddaBody = document.querySelector('.find-budda-body');
     // buddaVideoTitle = document.querySelector('.budda-video-title');
-    companyBlock = document.querySelector('.company-block');
-    companyBlock2 = document.querySelector('.company-block2');
+    companyBlock = document.querySelector('.company-block span');
+    companyBlock2 = document.querySelector('.company-block2 span');
     ecoBlock = document.querySelector('.eco-block');
     ecoBlock2 = document.querySelector('.eco-block2');
     
@@ -56,23 +56,7 @@ export class MainLangs extends Langs {
 
             
         } catch (error) {
-            console.log(
-                this.wallet,
-                this.findBuddaTitle,
-                this.benefitTitle,
-                this.benefit1,
-                this.benefit2,
-                this.benefit3,
-                this.benefit4,
-                this.ecoTitle,
-                this.findBuddaBody,
-                this.buddaVideoTitle,
-                this.companyBlock,
-                this.companyBlock2,
-                this.ecoBlock,
-                this.ecoBlock2,
-            )            
-        }    
+        }
     }
 
     eng() {

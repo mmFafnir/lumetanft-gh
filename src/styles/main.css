@@ -230,6 +230,7 @@
     display: flex;
     align-items: center;
     margin: 0 0 0 30px;
+    margin-top: 20px;
   }
   
   .mint-top {
@@ -263,7 +264,7 @@
     background-clip: text;
     font-size: 24px;
     height: 76px;
-    width: 253px;
+    width: auto;
     box-shadow:(0px 3px 9px rgba(140, 132, 246, 0.7));
     font-family: 'Montserrat-Bold';
     text-align: left;
@@ -272,7 +273,10 @@
     justify-content: space-between;
     align-items: center;
   }
-  
+  .wallet-top svg{
+    flex: 0 0 40px;
+    margin-left: 22px;
+  }
   .wallet-top:hover {
     opacity: 0.8;
     transition: 0.3s;
@@ -376,13 +380,14 @@
     color: #565656;
   }
   
-  .company-block:before {
+  .company-block .star, .company-block2 .star {
     position: absolute;
     top: -21px;
     left: -23px;
     width: 59px;
     height: 59px;
     bottom: 0;
+    z-index: 5;
     content: '';
     /* background: url(../images/star.svg) 0 0 no-repeat; */
   }
@@ -499,18 +504,31 @@
     left: 50px;
   }
   
-  .benefit-block:before {
+  .star-benefit {
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 6px;
     left: 10px;
-    right: 10px;
-    bottom: 0;
-    content: '';
-    /* background: url(../images/star-benefit.svg) 0 0 no-repeat; */
-    background-size: contain;
+    top: 10px;
   }
   
-  
+  .star-benefit:nth-child(2) {
+    left: auto;
+    top: auto;
+    bottom: 10px;
+    right: 10px;
+  } 
+  .star-benefit:nth-child(3) {
+    /* right: 10px; */
+    top: auto;
+    bottom: 10px;
+  } 
+  .star-benefit:nth-child(4) {
+    /* bottom: 10px; */
+    /* top: auto; */
+    left: auto;
+    right: 10px
+  }
   .benefit-block2 {
     position: relative;
     font-size: 37px;
@@ -574,7 +592,10 @@
     /* background: url(../images/benefit.svg) 0 0 no-repeat; */
     background-size: contain;
   }
-  
+  .benefit-block, .benefit-block2,.benefit-block3{
+    padding: 64px 184px;
+    padding-right: 20px;
+  }
   .eco-title {
     font-size: 100px;
     line-height: 100%;
@@ -764,6 +785,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .search-select .field{
+    margin-right: 10px;
+  }
+  .search-select .field .icon {
+    margin-right: 10px;
   }
   /* .search-select .icon:after {
     font-style: normal;

@@ -32,11 +32,16 @@ const Header = () => {
         }
     }, [lang])
 
+
     useEffect(() => {
-        setClassLang(new HeaderLangs(lang))
         setPath(window.location.pathname)
-        console.log(path)
-    }, [])
+        if(!classLang) {
+            setClassLang(new HeaderLangs(lang))
+        }
+        if(classLang) {
+            classLang.changeLang(lang)
+        }
+    }, [classLang]) 
     return (
         <>
             <BurgerMenu />

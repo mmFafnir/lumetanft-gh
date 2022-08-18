@@ -32,11 +32,19 @@ const FindBudda = () => {
 
                 <div className="company-wrap">
                     <div className="company-block">
-                        The SENSAY is a collection of 10,000 unique NFT Buddhas that are part of something bigger! 
+                        <img className='star' src="static/images/star.svg"/>
+                        <span>
+
+                            The SENSAY is a collection of 10,000 unique NFT Buddhas that are part of something bigger! 
+                        </span>
                     </div>
 
                     <div className="company-block2">
+                        <img className='star' src="static/images/star.svg"/>
+                        <span>
+
                         Owning an NFT opens up access to the illuminated club as well as passive income in the horizon. Future privileges will be unlocked by the community as the roadmap progresses
+                        </span>
                     </div>
                     <div className="clear"></div>
                 </div>
