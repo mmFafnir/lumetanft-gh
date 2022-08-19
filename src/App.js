@@ -23,7 +23,7 @@ import FAQ from "./pages/FAQ";
 export const gitUrl = '/';
 
 function App() {
-  
+  console.log('update-ok')  
   return (
     <div className="App">
         <Header />
