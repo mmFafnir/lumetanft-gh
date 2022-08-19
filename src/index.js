@@ -6,10 +6,10 @@ import { store } from './store';
 import App from './App';
 import './styles/index.css';
 
-const basename= '/lumetanft-gh'
+const basename= '/'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Provider basename={basename} store={store}>
+  <Provider  store={store}>
     <BrowserRouter >
       <App />
 

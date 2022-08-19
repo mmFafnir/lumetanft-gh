@@ -54,10 +54,10 @@ const Header = () => {
                     <div class="logo-wrap">
                         <Logo />
                         <ul class="menu-top">
-                            <li><Link to={`${gitUrl}/about`}>ABOUT</Link></li>
-                            <li><Link to={`${gitUrl}/roadmap`}>Road map</Link></li>
-                            <li><Link to={`${gitUrl}/how-to-buy`}>How to buy</Link></li>
-                            <li><Link to={`${gitUrl}/faq`}>FAQ</Link></li>
+                            <li><Link to={`${gitUrl}about`}>ABOUT</Link></li>
+                            <li><Link to={`${gitUrl}roadmap`}>Road map</Link></li>
+                            <li><Link to={`${gitUrl}how-to-buy`}>How to buy</Link></li>
+                            <li><Link to={`${gitUrl}faq`}>FAQ</Link></li>
                         </ul>
                         <div class="lang-mb-wrap">
                             <Lang />
@@ -65,7 +65,7 @@ const Header = () => {
                             <BurgerIcon />  
                         </div>
                     </div>
-                    {path === `${gitUrl}/` ? <BuddaSlider /> : null}
+                    {path === `${gitUrl}` ? <BuddaSlider /> : null}
                 </div>
 
             </header>

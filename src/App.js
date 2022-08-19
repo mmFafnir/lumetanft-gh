@@ -20,7 +20,7 @@ import FAQ from "./pages/FAQ";
 
 
 
-export const gitUrl = '/lumetanft-gh';
+export const gitUrl = '/';
 
 function App() {
   
@@ -28,11 +28,11 @@ function App() {
     <div className="App">
         <Header />
         <Routes>
-          <Route path={`${gitUrl}/`} element={<Main />}  />
-          <Route path={`${gitUrl}/about`} element={<About />}  />
-          <Route path={`${gitUrl}/roadmap`} element={<Roadmap />}  />
-          <Route path={`${gitUrl}/how-to-buy`} element={<HowBuy />}  />
-          <Route path={`${gitUrl}/faq`} element={<FAQ />}  />
+          <Route path={`${gitUrl}`} element={<Main />}  />
+          <Route path={`${gitUrl}about`} element={<About />}  />
+          <Route path={`${gitUrl}roadmap`} element={<Roadmap />}  />
+          <Route path={`${gitUrl}how-to-buy`} element={<HowBuy />}  />
+          <Route path={`${gitUrl}faq`} element={<FAQ />}  />
         </Routes>
 
         <Footer />
